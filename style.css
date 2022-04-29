@@ -20,12 +20,14 @@ body{
 
 }
 .logo{
-    letter-spacing: 11px;
-    font-size: 3em;
+    letter-spacing: 0.5em;
+    font-size: 2.5em;
     
 }
 .menu-icon{
     display: none;
+    background: hsl(214, 62%, 35%);
+    border-radius: 0.2rem;
 }
 .header a{
     font-size: 2em;
