@@ -81,8 +81,8 @@ main{background: #c2bbc1;
         cursor: pointer;
         display: block;}
         
-    .nav{
-        width: 100%;
+    nav{
+        .width: 100%;
         margin-top: 1rem;
     }
     .nav ul{
@@ -104,5 +104,5 @@ main{background: #c2bbc1;
         background: #ff00e6;
         border-radius: 1em;
         }
+    .footer{width: auto;}    
 
-}
