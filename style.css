@@ -24,6 +24,7 @@ body{
     font-size: 2.5em;
     
 }
+/* nav barra*/
 .menu-icon{
     display: none;
     background: hsl(214, 62%, 35%);
@@ -107,7 +108,12 @@ main{background: #c2bbc1;
         background: #ff00e6;
         border-radius: 1em;
         }
-    .main h1{text-align: center;}    
-    .footer{width: auto;}    
+       
+    .main{
+        
+        
+        text-align:center;
+    }    
+    .footer{min-width: 500px;}    
 
     }
