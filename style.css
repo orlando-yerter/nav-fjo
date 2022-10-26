@@ -60,6 +60,7 @@ body{
     }
 
 main{background: #c2bbc1;
+    display:flex;
     height: 19rem;
     text-align:center ;
     color: rgb(26, 7, 48);
