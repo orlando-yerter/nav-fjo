@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar - Menú Lateral Izquierdo</title>
+    <link rel="stylesheet" href="navbar-left.css">
+</head>
+<body>
+    <!-- ========================================= -->
+    <!-- COMPONENTE: BARRA DE NAVEGACIÓN CON MENÚ LATERAL -->
+    <!-- ========================================= -->
+    
+    <!-- Overlay (fondo oscuro al abrir el menú) -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+    
+    <!-- Header superior fijo -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <!-- Botón hamburguesa (abre menú lateral) -->
+            <button class="navbar-toggle" id="navbarToggle" aria-label="Menú">
+                ☰
+            </button>
+            
+            <!-- Logo / Marca -->
+            <a href="#" class="navbar-logo">
+                <span class="logo-text">MiLogo</span>
+            </a>
+        </div>
+    </header>
+    
+    <!-- Menú lateral izquierdo -->
+    <aside class="sidebar-menu" id="sidebarMenu">
+        <div class="sidebar-header">
+            <span class="sidebar-logo">MiLogo</span>
+            <button class="sidebar-close" id="sidebarClose">✕</button>
+        </div>
+        
+        <nav class="sidebar-nav">
+            <ul class="sidebar-nav-list">
+                <li class="sidebar-nav-item">
+                    <a href="#inicio" class="sidebar-nav-link">🏠 Inicio</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a href="#servicios" class="sidebar-nav-link">⚙️ Servicios</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a href="#productos" class="sidebar-nav-link">📦 Productos</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a href="#nosotros" class="sidebar-nav-link">👥 Nosotros</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a href="#contacto" class="sidebar-nav-link">📞 Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
 
+    <!-- Contenido principal -->
+    <main class="main-content" id="mainContent">
+        <h1>Menú Lateral Izquierdo</h1>
+        <p>Haz clic en el botón ☰ para abrir el menú desde la izquierda.</p>
+        <p>El menú se desliza suavemente con un efecto overlay.</p>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="navbar-left.js"></script>
+</body>
+</html>
